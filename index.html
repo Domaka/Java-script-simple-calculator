@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("hi welcome to my calc")
+      
+        const num1 = parseFloat(prompt("enter ur first no"));
+        const operator = prompt("enter ur  mathematical operator");
+        const num2 = parseFloat(prompt("enter ur second no"));
+        let result ;
+        if (operator == "+"){
+            result = num1+num2;
+            alert(result)
+        }
+        else if (operator == "-"){
+            result = num1-num2;
+            alert(result)
+        }
+        else if (operator == "*"){
+            result = num1*num2;
+            alert(result)
+
+        }
+        else if (operator == "/"){
+            result = num1/num2;
+            alert(result)
+        }
+        else {
+          result =  alert("ur request is invalid");
+        }
+
+    </script>
+</body>
+</html>
